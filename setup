@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Installing ZSH"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh-bin/master/install)"
+
+echo "Setuping up go symlink"
+ln -s $HOME/cloudways-shell/go $HOME/go
